@@ -1,3 +1,4 @@
+//try to name files correctly eg. Formsinput can be named FormInput (words upper case first character and single form input so no 's')
 import React, { useState } from 'react';
 import "./forminput.css";
 

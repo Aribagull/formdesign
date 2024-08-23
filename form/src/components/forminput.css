@@ -12,6 +12,7 @@ input{
     width: 550px;
 }
 
+/*While using css, try to avoid adding css to tags directly. Span is a common element that can be use elsewhere. You can set a class for that particular element and define css for that class here.*/
 span{
     font-size: 12px;
     padding: 3px;

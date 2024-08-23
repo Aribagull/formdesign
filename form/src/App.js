@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import FormInput from "./components/Formsinput";
 import PhoneInput from "./components/PhoneInput"; 
+//use absolute import paths (that make code more readable, you can google or GPT on how to setup and use them)
 
 const App = () => {          
   const [values, setValues] = useState({
@@ -80,7 +81,7 @@ const App = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
   
-
+  //form can be moved to seperate component
   return (
     <div className="App">
       <div className="form-design">

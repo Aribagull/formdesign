@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+//remove unused imports eg 'useState' here (use eslint extension to detect such)
 import { PhoneInput as ReactPhoneInput } from 'react-international-phone';
 import 'react-international-phone/style.css';
 
@@ -17,7 +18,7 @@ const PhoneInput = ({ phone, onChange }) => {
           border: '1px solid var(--react-international-phone-border-color, gray',
           borderLeft: 'none',
 
-          
+          //use prettier to autoformat this type of whitespaces
         }}
         
         
